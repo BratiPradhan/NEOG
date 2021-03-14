@@ -103,7 +103,7 @@ const onInput = (event) => {
     for(let i=1; i<=n; i++){
         let newUserInput = userInput* i
 
-        console.log(newUserInput)
+        console.log(`${userInput} * ${i} = ${newUserInput} `)
     }
     console.log('\n')
     
